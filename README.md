@@ -107,7 +107,7 @@ This project is built using modern Android architecture guidelines to ensure sca
 ---
 
 ## 🎬 Application Demo
-*(Demo video link goes here)*
+*(Demo video link will be provided soon, content me via email if you're interested in this project.)*
 
 ---
 
