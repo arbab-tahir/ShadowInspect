@@ -100,17 +100,17 @@ android {
                 "META-INF/versions/9/OSGI-INF/MANIFEST.MF",
                 "META-INF/versions/9/module-info.class"
             )
+            pickFirsts += setOf(
+                "META-INF/DEPENDENCIES",
+                "META-INF/LICENSE",
+                "META-INF/NOTICE",
+                "META-INF/license.txt",
+                "META-INF/notice.txt",
+                "META-INF/ASL-2.0.txt",
+                "META-INF/LGPL-3.0.txt",
+                "META-INF/apache-license-2.0.txt"
+            )
         }
-        pickFirsts += setOf(
-            "META-INF/DEPENDENCIES",
-            "META-INF/LICENSE",
-            "META-INF/NOTICE",
-            "META-INF/license.txt",
-            "META-INF/notice.txt",
-            "META-INF/ASL-2.0.txt",
-            "META-INF/LGPL-3.0.txt",
-            "META-INF/apache-license-2.0.txt"
-        )
         jniLibs {
             useLegacyPackaging = true
         }
@@ -118,7 +118,7 @@ android {
     
     // Prevent compressing TFLite models
     androidResources {
-        noCompress("tflite")
+        noCompress += "tflite"
     }
 }
 
