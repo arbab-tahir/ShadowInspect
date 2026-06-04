@@ -1,0 +1,53 @@
+# Gradle files
+.gradle/
+build/
+app/build/
+/D:/ShadowInspectBuild/
+ShadowInspectBuild/
+
+# Kotlin / IntelliJ IDEA files
+.idea/
+*.iml
+.kotlin/
+
+# Local configuration files
+local.properties
+.DS_Store
+
+# Heavy Java heap dumps & logs
+*.hprof
+*.log
+*.txt
+
+# Exclude all build logs explicitly
+build_error_log.txt
+build_error_log2.txt
+build_error_log_utf8.txt
+build_final_test.log
+build_fresh_fixed.txt
+build_hilt240.log
+build_log.txt
+build_log_fixed.txt
+build_log_fixed2.txt
+build_output.txt
+build_output_2.txt
+build_output_3.txt
+build_output_final.txt
+build_output_fresh.txt
+build_output_full.txt
+build_output_java8.txt
+build_run17.log
+build_test_log.txt
+final_build_output.txt
+full_build_log.txt
+build_edu_test.txt
+
+# Helper scripts
+*.bat
+*.ps1
+print_lines.py
+tree.txt
+
+# OS-specific files
+desktop.ini
+thumbs.db

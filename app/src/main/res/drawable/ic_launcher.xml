@@ -1,0 +1,30 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Dark Background -->
+    <path
+        android:fillColor="#1A1A1A"
+        android:pathData="M54,54m-54,0a54,54 0,1 1,108 0a54,54 0,1 1,-108 0"/>
+    
+    <!-- Shield Base (Neon Green Glow) -->
+    <path
+        android:fillColor="#00FF9D"
+        android:pathData="M54,16 L24,28 C24,52 35,76 54,92 C73,76 84,52 84,28 Z" />
+
+    <!-- Inner Shield Pattern (Dark overlay for depth) -->
+    <path
+        android:fillColor="#0A0A0A"
+        android:pathData="M54,22 L30,32 C30,52 38,70 54,82 C70,70 78,52 78,32 Z" />
+
+    <!-- Core Eye / Iris (Neon Cyan) -->
+    <path
+        android:fillColor="#00E5FF"
+        android:pathData="M54,42 C40,42 34,54 34,54 C34,54 40,66 54,66 C68,66 74,54 74,54 C74,54 68,42 54,42 Z M54,62 C49.5,62 46,58.5 46,54 C46,49.5 49.5,46 54,46 C58.5,46 62,49.5 62,54 C62,58.5 58.5,62 54,62 Z" />
+        
+    <!-- Pupil (Neon Green) -->
+    <path
+        android:fillColor="#00FF9D"
+        android:pathData="M54,58 C51.79,58 50,56.21 50,54 C50,51.79 51.79,50 54,50 C56.21,50 58,51.79 58,54 C58,56.21 56.21,58 54,58 Z" />
+</vector>

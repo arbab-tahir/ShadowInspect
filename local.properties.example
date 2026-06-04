@@ -1,0 +1,10 @@
+sdk.dir=/path/to/your/Android/Sdk
+
+# Required API Keys — get your own from each service
+VIRUSTOTAL_API_KEY=your_virustotal_key_here
+GEMINI_API_KEY=your_gemini_key_here
+URLSCAN_API_KEY=your_urlscan_key_here
+ABSTRACT_API_KEY=your_abstract_api_key_here
+NUMVERIFY_API_KEY=your_numverify_key_here
+IPQUALITY_KEY=your_ipquality_key_here
+VERIPHONE_KEY=your_veriphone_key_here
