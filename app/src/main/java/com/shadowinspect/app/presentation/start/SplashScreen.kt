@@ -9,8 +9,8 @@ import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.height
+import androidx.compose.foundation.Image
 import androidx.compose.foundation.layout.size
-import androidx.compose.material3.Icon
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
@@ -75,10 +75,9 @@ fun SplashScreen(onNavigateToStart: () -> Unit) {
             horizontalAlignment = Alignment.CenterHorizontally,
             verticalArrangement = Arrangement.Center
         ) {
-            Icon(
-                painter = painterResource(id = R.drawable.ic_launcher), // This will use the new vector graphic we create
+            Image(
+                painter = painterResource(id = R.drawable.ic_launcher),
                 contentDescription = "ShadowInspect Logo",
-                tint = NeonGreen,
                 modifier = Modifier
                     .size(120.dp)
                     .scale(scaleAnim.value)
