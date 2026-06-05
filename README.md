@@ -1,4 +1,4 @@
-# 🛡️ ShadowInspect: Advanced Mobile Security & MITRE ATT&CK® Intelligence Suite
+# 🛡️ ShadowInspect: A Machine Learning-Driven On-Device Android Forensic Auditing and Threat Intelligence Framework Integrated with MITRE ATT&CK®
 
 [![Kotlin](https://img.shields.io/badge/Kotlin-1.9.0-purple.svg?style=flat&logo=kotlin)](https://kotlinlang.org)
 [![Compose](https://img.shields.io/badge/Jetpack_Compose-2024.02-blue.svg?style=flat&logo=jetpackcompose)](https://developer.android.com/jetpack/compose)
